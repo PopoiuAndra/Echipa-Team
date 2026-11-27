@@ -1,0 +1,416 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rec: <http://example.org/rec-onto#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rec:event_seed_1 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:Python ;
+    schema:location wd:Q218 ;
+    schema:name "Open Hardware Meetup 1" .
+
+rec:event_seed_10 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:JavaScript ;
+    schema:location wd:Q183 ;
+    schema:name "Classical Music Festival 10" .
+
+rec:event_seed_2 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:React ;
+    schema:location wd:Q843 ;
+    schema:name "Python Conference 2" .
+
+rec:event_seed_3 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:JavaScript ;
+    schema:location wd:Q29 ;
+    schema:name "Horror Film Night 3" .
+
+rec:event_seed_4 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:MachineLearning ;
+    schema:location wd:Q30 ;
+    schema:name "React Workshop 4" .
+
+rec:event_seed_5 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:Arduino ;
+    schema:location wd:Q183 ;
+    schema:name "Classical Music Festival 5" .
+
+rec:event_seed_6 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:Cloud ;
+    schema:location wd:Q218 ;
+    schema:name "Open Hardware Meetup 6" .
+
+rec:event_seed_7 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:Cybersecurity ;
+    schema:location wd:Q843 ;
+    schema:name "Python Conference 7" .
+
+rec:event_seed_8 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:Python ;
+    schema:location wd:Q29 ;
+    schema:name "Horror Film Night 8" .
+
+rec:event_seed_9 a rec:RecommendableItem,
+        schema:Event ;
+    rec:hasTag rec:React ;
+    schema:location wd:Q30 ;
+    schema:name "React Workshop 9" .
+
+rec:place_seed_1 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:Python ;
+    schema:location wd:Q218 ;
+    schema:name "Innovation Hub 1" .
+
+rec:place_seed_10 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:JavaScript ;
+    schema:location wd:Q183 ;
+    schema:name "Tech Park 10" .
+
+rec:place_seed_2 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:React ;
+    schema:location wd:Q843 ;
+    schema:name "Library 2" .
+
+rec:place_seed_3 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:JavaScript ;
+    schema:location wd:Q29 ;
+    schema:name "Co-working Space 3" .
+
+rec:place_seed_4 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:MachineLearning ;
+    schema:location wd:Q30 ;
+    schema:name "Music Hall 4" .
+
+rec:place_seed_5 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:Arduino ;
+    schema:location wd:Q183 ;
+    schema:name "Tech Park 5" .
+
+rec:place_seed_6 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:Cloud ;
+    schema:location wd:Q218 ;
+    schema:name "Innovation Hub 6" .
+
+rec:place_seed_7 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:Cybersecurity ;
+    schema:location wd:Q843 ;
+    schema:name "Library 7" .
+
+rec:place_seed_8 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:Python ;
+    schema:location wd:Q29 ;
+    schema:name "Co-working Space 8" .
+
+rec:place_seed_9 a rec:RecommendableItem,
+        schema:Place ;
+    rec:hasTag rec:React ;
+    schema:location wd:Q30 ;
+    schema:name "Music Hall 9" .
+
+rec:product_seed_1 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:Python ;
+    schema:name "Free Software Suite 1" .
+
+rec:product_seed_10 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:JavaScript ;
+    schema:name "ML Course 10" .
+
+rec:product_seed_2 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:React ;
+    schema:name "Arduino Kit 2" .
+
+rec:product_seed_3 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:JavaScript ;
+    schema:name "Cloud Book 3" .
+
+rec:product_seed_4 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:MachineLearning ;
+    schema:name "Security Scanner 4" .
+
+rec:product_seed_5 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:Arduino ;
+    schema:name "ML Course 5" .
+
+rec:product_seed_6 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:Cloud ;
+    schema:name "Free Software Suite 6" .
+
+rec:product_seed_7 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:Cybersecurity ;
+    schema:name "Arduino Kit 7" .
+
+rec:product_seed_8 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:Python ;
+    schema:name "Cloud Book 8" .
+
+rec:product_seed_9 a rec:RecommendableItem,
+        schema:Product ;
+    rec:hasTag rec:React ;
+    schema:name "Security Scanner 9" .
+
+rec:service_seed_1 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:Python ;
+    schema:location wd:Q218 ;
+    schema:name "Mentoring Service 1" .
+
+rec:service_seed_10 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:JavaScript ;
+    schema:location wd:Q183 ;
+    schema:name "Hardware Prototyping 10" .
+
+rec:service_seed_2 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:React ;
+    schema:location wd:Q843 ;
+    schema:name "DevOps Consulting 2" .
+
+rec:service_seed_3 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:JavaScript ;
+    schema:location wd:Q29 ;
+    schema:name "Security Audit 3" .
+
+rec:service_seed_4 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:MachineLearning ;
+    schema:location wd:Q30 ;
+    schema:name "Data Analysis 4" .
+
+rec:service_seed_5 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:Arduino ;
+    schema:location wd:Q183 ;
+    schema:name "Hardware Prototyping 5" .
+
+rec:service_seed_6 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:Cloud ;
+    schema:location wd:Q218 ;
+    schema:name "Mentoring Service 6" .
+
+rec:service_seed_7 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:Cybersecurity ;
+    schema:location wd:Q843 ;
+    schema:name "DevOps Consulting 7" .
+
+rec:service_seed_8 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:Python ;
+    schema:location wd:Q29 ;
+    schema:name "Security Audit 8" .
+
+rec:service_seed_9 a rec:RecommendableItem,
+        schema:Service ;
+    rec:hasTag rec:React ;
+    schema:location wd:Q30 ;
+    schema:name "Data Analysis 9" .
+
+rec:user_seed_1 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_1_aversion ;
+    rec:hasSkill rec:user_seed_1_skill ;
+    foaf:name "Candidate 1" ;
+    schema:homeLocation wd:Q218 .
+
+rec:user_seed_10 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_10_aversion ;
+    rec:hasSkill rec:user_seed_10_skill ;
+    foaf:name "Candidate 10" ;
+    schema:homeLocation wd:Q183 .
+
+rec:user_seed_11 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_11_aversion ;
+    rec:hasSkill rec:user_seed_11_skill ;
+    foaf:name "Candidate 11" ;
+    schema:homeLocation wd:Q218 .
+
+rec:user_seed_12 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_12_aversion ;
+    rec:hasSkill rec:user_seed_12_skill ;
+    foaf:name "Candidate 12" ;
+    schema:homeLocation wd:Q843 .
+
+rec:user_seed_2 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_2_aversion ;
+    rec:hasSkill rec:user_seed_2_skill ;
+    foaf:name "Candidate 2" ;
+    schema:homeLocation wd:Q843 .
+
+rec:user_seed_3 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_3_aversion ;
+    rec:hasSkill rec:user_seed_3_skill ;
+    foaf:name "Candidate 3" ;
+    schema:homeLocation wd:Q29 .
+
+rec:user_seed_4 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_4_aversion ;
+    rec:hasSkill rec:user_seed_4_skill ;
+    foaf:name "Candidate 4" ;
+    schema:homeLocation wd:Q30 .
+
+rec:user_seed_5 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_5_aversion ;
+    rec:hasSkill rec:user_seed_5_skill ;
+    foaf:name "Candidate 5" ;
+    schema:homeLocation wd:Q183 .
+
+rec:user_seed_6 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_6_aversion ;
+    rec:hasSkill rec:user_seed_6_skill ;
+    foaf:name "Candidate 6" ;
+    schema:homeLocation wd:Q218 .
+
+rec:user_seed_7 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_7_aversion ;
+    rec:hasSkill rec:user_seed_7_skill ;
+    foaf:name "Candidate 7" ;
+    schema:homeLocation wd:Q843 .
+
+rec:user_seed_8 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_8_aversion ;
+    rec:hasSkill rec:user_seed_8_skill ;
+    foaf:name "Candidate 8" ;
+    schema:homeLocation wd:Q29 .
+
+rec:user_seed_9 a rec:RecommendableItem,
+        foaf:Person ;
+    rec:hasAversion rec:user_seed_9_aversion ;
+    rec:hasSkill rec:user_seed_9_skill ;
+    foaf:name "Candidate 9" ;
+    schema:homeLocation wd:Q30 .
+
+rec:user_seed_10_aversion a rec:WeightedAversion ;
+    rec:severity "1.0"^^xsd:float ;
+    rec:target rec:Politics .
+
+rec:user_seed_10_skill a rec:WeightedSkill ;
+    rec:concept rec:JavaScript ;
+    rec:proficiency "0.75"^^xsd:float .
+
+rec:user_seed_11_aversion a rec:WeightedAversion ;
+    rec:severity "0.85"^^xsd:float ;
+    rec:target rec:PhoneCommunication .
+
+rec:user_seed_11_skill a rec:WeightedSkill ;
+    rec:concept rec:MachineLearning ;
+    rec:proficiency "0.8500000000000001"^^xsd:float .
+
+rec:user_seed_12_aversion a rec:WeightedAversion ;
+    rec:severity "1.0"^^xsd:float ;
+    rec:target rec:Politics .
+
+rec:user_seed_12_skill a rec:WeightedSkill ;
+    rec:concept rec:Arduino ;
+    rec:proficiency "0.9500000000000001"^^xsd:float .
+
+rec:user_seed_1_aversion a rec:WeightedAversion ;
+    rec:severity "0.85"^^xsd:float ;
+    rec:target rec:PhoneCommunication .
+
+rec:user_seed_1_skill a rec:WeightedSkill ;
+    rec:concept rec:Python ;
+    rec:proficiency "0.65"^^xsd:float .
+
+rec:user_seed_2_aversion a rec:WeightedAversion ;
+    rec:severity "1.0"^^xsd:float ;
+    rec:target rec:Politics .
+
+rec:user_seed_2_skill a rec:WeightedSkill ;
+    rec:concept rec:React ;
+    rec:proficiency "0.75"^^xsd:float .
+
+rec:user_seed_3_aversion a rec:WeightedAversion ;
+    rec:severity "0.85"^^xsd:float ;
+    rec:target rec:Politics .
+
+rec:user_seed_3_skill a rec:WeightedSkill ;
+    rec:concept rec:JavaScript ;
+    rec:proficiency "0.8500000000000001"^^xsd:float .
+
+rec:user_seed_4_aversion a rec:WeightedAversion ;
+    rec:severity "1.0"^^xsd:float ;
+    rec:target rec:Politics .
+
+rec:user_seed_4_skill a rec:WeightedSkill ;
+    rec:concept rec:MachineLearning ;
+    rec:proficiency "0.9500000000000001"^^xsd:float .
+
+rec:user_seed_5_aversion a rec:WeightedAversion ;
+    rec:severity "0.85"^^xsd:float ;
+    rec:target rec:Politics .
+
+rec:user_seed_5_skill a rec:WeightedSkill ;
+    rec:concept rec:Arduino ;
+    rec:proficiency "0.65"^^xsd:float .
+
+rec:user_seed_6_aversion a rec:WeightedAversion ;
+    rec:severity "1.0"^^xsd:float ;
+    rec:target rec:PhoneCommunication .
+
+rec:user_seed_6_skill a rec:WeightedSkill ;
+    rec:concept rec:Cloud ;
+    rec:proficiency "0.75"^^xsd:float .
+
+rec:user_seed_7_aversion a rec:WeightedAversion ;
+    rec:severity "0.85"^^xsd:float ;
+    rec:target rec:Politics .
+
+rec:user_seed_7_skill a rec:WeightedSkill ;
+    rec:concept rec:Cybersecurity ;
+    rec:proficiency "0.8500000000000001"^^xsd:float .
+
+rec:user_seed_8_aversion a rec:WeightedAversion ;
+    rec:severity "1.0"^^xsd:float ;
+    rec:target rec:Politics .
+
+rec:user_seed_8_skill a rec:WeightedSkill ;
+    rec:concept rec:Python ;
+    rec:proficiency "0.9500000000000001"^^xsd:float .
+
+rec:user_seed_9_aversion a rec:WeightedAversion ;
+    rec:severity "0.85"^^xsd:float ;
+    rec:target rec:Politics .
+
+rec:user_seed_9_skill a rec:WeightedSkill ;
+    rec:concept rec:React ;
+    rec:proficiency "0.65"^^xsd:float .
+

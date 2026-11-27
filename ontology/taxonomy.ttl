@@ -1,0 +1,25 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rec: <http://example.org/rec-onto#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+rec:WebTechnologies a skos:Concept ; skos:prefLabel "Web Technologies"@en .
+rec:React a skos:Concept ; skos:prefLabel "React"@en ; skos:broader rec:WebTechnologies .
+rec:JavaScript a skos:Concept ; skos:prefLabel "JavaScript"@en ; skos:broader rec:WebTechnologies .
+rec:Python a skos:Concept ; skos:prefLabel "Python"@en ; skos:broader rec:BackendTechnologies .
+rec:BackendTechnologies a skos:Concept ; skos:prefLabel "Backend Technologies"@en .
+rec:OpenHardware a skos:Concept ; skos:prefLabel "Open Hardware"@en .
+rec:Arduino a skos:Concept ; skos:prefLabel "Arduino"@en ; skos:broader rec:OpenHardware .
+rec:RaspberryPi a skos:Concept ; skos:prefLabel "Raspberry Pi"@en ; skos:broader rec:OpenHardware .
+rec:DataScience a skos:Concept ; skos:prefLabel "Data Science"@en .
+rec:MachineLearning a skos:Concept ; skos:prefLabel "Machine Learning"@en ; skos:broader rec:DataScience .
+rec:DevOps a skos:Concept ; skos:prefLabel "DevOps"@en .
+rec:Cloud a skos:Concept ; skos:prefLabel "Cloud Computing"@en ; skos:broader rec:DevOps .
+rec:Cybersecurity a skos:Concept ; skos:prefLabel "Cybersecurity"@en .
+rec:FreeSoftware a skos:Concept ; skos:prefLabel "Free Software"@en .
+rec:OpenSource a skos:Concept ; skos:prefLabel "Open Source"@en ; skos:broader rec:FreeSoftware .
+rec:ClassicMusic a skos:Concept ; skos:prefLabel "Classical Music"@en .
+rec:Horror a skos:Concept ; skos:prefLabel "Horror"@en .
+rec:Sports a skos:Concept ; skos:prefLabel "Sports"@en .
+rec:InPersonNetworking a skos:Concept ; skos:prefLabel "In-person Networking"@en .
+rec:PhoneCommunication a skos:Concept ; skos:prefLabel "Phone Communication"@en .
+rec:Politics a skos:Concept ; skos:prefLabel "Politics"@en .

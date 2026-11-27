@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rec: <http://example.org/rec-onto#> .
+
+rec: a owl:Ontology ;
+    rdfs:label "Semantic Knowledge Graph Recommender Ontology" .
+
+rec:RecommendableItem a rdfs:Class .
+rec:WeightedAttribute a rdfs:Class .
+rec:WeightedSkill a rdfs:Class ; rdfs:subClassOf rec:WeightedAttribute .
+rec:WeightedPreference a rdfs:Class ; rdfs:subClassOf rec:WeightedAttribute .
+rec:WeightedAversion a rdfs:Class ; rdfs:subClassOf rec:WeightedAttribute .
+rec:Recommendation a rdfs:Class .
+
+rec:hasSkill a rdf:Property ;
+    rdfs:domain rec:RecommendableItem ;
+    rdfs:range rec:WeightedSkill .
+rec:hasPreference a rdf:Property ;
+    rdfs:domain rec:RecommendableItem ;
+    rdfs:range rec:WeightedPreference .
+rec:hasAversion a rdf:Property ;
+    rdfs:domain rec:RecommendableItem ;
+    rdfs:range rec:WeightedAversion .
+rec:concept a rdf:Property .
+rec:target a rdf:Property .
+rec:proficiency a rdf:Property ; rdfs:range xsd:float .
+rec:weight a rdf:Property ; rdfs:range xsd:float .
+rec:severity a rdf:Property ; rdfs:range xsd:float .
+
+rec:forUser a rdf:Property ; rdfs:domain rec:Recommendation .
+rec:recommendedItem a rdf:Property ; rdfs:domain rec:Recommendation .
+rec:itemType a rdf:Property ; rdfs:domain rec:Recommendation ; rdfs:range xsd:string .
+rec:score a rdf:Property ; rdfs:domain rec:Recommendation ; rdfs:range xsd:float .
+rec:explanation a rdf:Property ; rdfs:domain rec:Recommendation ; rdfs:range xsd:string .
+rec:generatedAt a rdf:Property ; rdfs:domain rec:Recommendation ; rdfs:range xsd:dateTime .
+rec:hasTag a rdf:Property .
+rec:involvesActivity a rdf:Property .
+rec:hasDrivingLicense a rdf:Property ; rdfs:range xsd:boolean .
